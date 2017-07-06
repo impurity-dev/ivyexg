@@ -1,0 +1,77 @@
+#layerWrapper {
+  height: 5000px;
+}
+
+.content {
+  color: white;
+  padding: 18px;
+}
+
+.layer {
+  position: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2000px;
+}
+
+.layerDark {
+  background-color: #050300;
+}
+
+/* clouds? */
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#layer1 {
+  background-image: url("../res/layers/layer1_large.png");
+}
+
+#layer2 {
+  background-image: url("../res/layers/layer2_large.png");
+}
+
+#layer3 {
+  background-image: url("../res/layers/layer3_large.png");
+}
+
+#layer4 {
+  background-image: url("../res/layers/layer4_large.png");
+}
+
+#layer5 {
+  background-image: url("../res/layers/layer5_large.png");
+}
+
+#layer6 {
+  background-image: url("../res/layers/layer6_large.png");
+}
+
+
+#layer6 {
+  background-image: url("../res/layers/layer6_5_large.png");
+}
+
+#layer7 {
+  background-image: url("../res/layers/layer7_large.png");
+}
+
+#layer7_1 {
+  background-image: url("../res/layers/layer7_1_large.png");
+  margin-top: 1000px;
+}
+
+#layer7_2 {
+  margin-top: 2000px;
+}
+
+#layer8 {
+  background-image: url("../res/layers/layer8_large.png");
+  margin-top: 3000px;
+}
+
+#layer8_1 {
+  background-image: url("../res/layers/layer8_1_large.png");
+  margin-top: 2500px;
+}
